@@ -14,3 +14,18 @@ Bity: 3355443200
 Roznica bitow: : 838860800
 *********************
 
+Porownano:plik1.bin i plik2.bin
+Bity: 800
+Roznica bitow: : 0
+*********************
+
+Porownano:plik3.bin i plik4.bin
+Bity: 800
+Roznica bitow: : 10
+*********************
+
+Porownano:plik5.bin i plik6.bin
+Bity: 3355443200
+Roznica bitow: : 838860800
+*********************
+

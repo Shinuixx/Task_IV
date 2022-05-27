@@ -93,23 +93,27 @@ int main(int argc, char * argv[]) {
                        pliki("plik1.bin", 100, 0x55);
                        pliki("plik2.bin", 100, 0x55);
                        Porownanie("plik1.bin","plik2.bin");
+                       cout << "Wynik zapisano w logach!" << endl;
                        cout << "***********" << endl;
-					   cout << "Wynik zapisano w logach!" << endl;
+					   cout << endl;
 
 					   cout << "Test 2" << endl;
                        pliki("plik3.bin", 100, 0x55);
                        losowy("plik4.bin", 100, 0x55, 0x45);
                        Porownanie("plik3.bin","plik4.bin");
+                       cout << "Wynik zapisano w logach!" << endl;
 					   cout << "***********" << endl;
-					   cout << "Wynik zapisano w logach!" << endl;
+					   cout << endl;
 
 
 					   cout << "Test 3" << endl;
                        pliki("plik5.bin", 1024 * 1024 * 400, 0x55);
                        pliki("plik6.bin", 1024 * 1024 * 400, 0x50);
                        Porownanie("plik5.bin","plik6.bin");
+                       cout << "Wynik zapisano w logach!" << endl;
 					   cout << "***********" << endl;
-					   cout << "Wynik zapisano w logach!" << endl;
+                       cout << endl;
+
 					   cout << "Koniec programu." << endl;
                        return 0;
 
